@@ -34,3 +34,4 @@ public class Listing {
       System.out.println("Item: " + title);
       System.out.println("\tPrice: " + price);
    }
+}
