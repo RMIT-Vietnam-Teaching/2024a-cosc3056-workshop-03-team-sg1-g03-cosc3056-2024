@@ -24,12 +24,12 @@ public class GoodsDatabase {
 
    public ArrayList<Listing> getAllListings() {
       // TODO: Implement
-      return new ArrayList<Listing>();
+      return new ArrayList<Listing>(goods);
    }
 
    public ArrayList<Listing> getListingsByTitle(String title) {
       // TODO: Implement
-      return new ArrayList<Listing>();
+      return new ArrayList<Listing>(goods);
    }
 
 }
