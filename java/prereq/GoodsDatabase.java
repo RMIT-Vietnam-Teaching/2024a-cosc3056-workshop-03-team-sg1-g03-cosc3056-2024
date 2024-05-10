@@ -28,8 +28,14 @@ public class GoodsDatabase {
    }
 
    public ArrayList<Listing> getListingsByTitle(String title) {
-      // TODO: Implement
-      return new ArrayList<Listing>(goods);
+      // TODO: Implement 
+      ArrayList<Listing> newArrayList = new ArrayList<>();
+      for (Listing listing : goods) {
+         if (listing.getTitle().equals(title)) {
+            newArrayList.add(listing);
+         }
+      }
+      return newArrayList;
    }
 
 }
