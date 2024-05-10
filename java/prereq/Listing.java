@@ -25,9 +25,9 @@ public class Listing {
    public void setPrice(int price) {
       this.price = price;
    }
-   public void setTitle(String title) {
-      this.title = title;
-   }
+   //public void setTitle(String title) {
+   //   this.title = title;
+   //}
    
    public void printInfo() {
       // TODO: Complete this to print out the information of the Listing
