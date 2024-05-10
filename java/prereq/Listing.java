@@ -34,11 +34,3 @@ public class Listing {
       System.out.println("Item: " + title);
       System.out.println("\tPrice: " + price);
    }
-
-   public void setTitle(String title) {
-      this.title = title;
-   }
-   public void setPrice(double price) {
-      this.price = price;
-   }
-}
