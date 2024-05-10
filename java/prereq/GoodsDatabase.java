@@ -19,7 +19,7 @@ public class GoodsDatabase {
    // Get the number of listings in the database
    int getDatabaseSize() {
       // TODO: Implement
-      return 0;
+      return goods.size();
    }
 
    public ArrayList<Listing> getAllListings() {

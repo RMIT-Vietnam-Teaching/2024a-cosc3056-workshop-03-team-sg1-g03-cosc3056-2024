@@ -4,8 +4,16 @@ public class Listing {
    // These are examples properties
    private String title;
    private double price;
-
+   private String description;
    // TODO: Add more properties
+
+   public String getDescription() {
+      return description;
+   }
+
+   public void setDescription(String description) {
+      this.description = description;
+   }
 
    // TODO: Add your setter/getter here
    public String getTitle() {
